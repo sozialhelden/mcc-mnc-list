@@ -4,6 +4,7 @@
 const fs = require('fs');
 const path = require('path');
 const jsdom = require('jsdom');
+const plmnutils = require('./plmnutils.js');
 
 const WIKI_URL = 'https://en.wikipedia.org/wiki/Mobile_country_code';
 const MCC_MNC_OUTPUT_FILE = path.join( __dirname, 'mcc-mnc-list.json');
@@ -96,12 +97,21 @@ function fetch () {
               statusCodes.push( status );
             }
 
+            var mcc = cleanup(cols[0].textContent);
+            var mnc = cleanup(cols[1].textContent);
+            var plmn = mcc ? (mnc ? mcc + mnc : null) : null;
+            var nibbledPlmn = plmn ? plmnutils.encPlmn(mcc, mnc) : null;
+            var region = plmnutils.getRegion(mcc);
+
             records.push({
+              plmn: plmn,
+              nibbledPlmn: nibbledPlmn,
+              mcc: mcc,
+              mnc: mnc,
+              region: region,
               type: recordType,
               countryName: countryName,
               countryCode: countryCode,
-              mcc: cleanup(cols[0].textContent),
-              mnc: cleanup(cols[1].textContent),
               brand: cleanup(cols[2].textContent),
               operator: cleanup(cols[3].textContent),
               status: status,
