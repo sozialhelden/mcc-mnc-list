@@ -19,7 +19,7 @@ The ITU-T Recommendation E.212 defines mobile country codes as well as mobile ne
 - `7` - South and Central America
 - `9` - World-wide (Satellite, Air - aboard aircraft, Maritime - aboard ships, Antarctica)
 
-A mobile country code (MCC) is used in combination with a mobile network code (MNC) (also known as a "MCC / MNC tuple") to uniquely identify a mobile network operator (carrier) using the GSM (including GSM-R), UMTS, and LTE public land mobile networks. (*source: Wikipedia*)
+A mobile country code (MCC) is used in combination with a mobile network code (MNC) (also known as a "MCC / MNC tuple" or "PLMN Code") to uniquely identify a mobile network operator (carrier) using the GSM (including GSM-R), UMTS, and LTE public land mobile networks (PLMN). (*source: Wikipedia*)
 
 ## Install
 
@@ -37,11 +37,14 @@ Structure of a single record:
 
 ```js
 {
-  "type": <String> - 'Test' / 'National' / 'International'
-  "countryName": <String> - country name
-  "countryCode": <String> - ISO 3166-1 country code
+  "plmn": <String> - mcc-mnc tuple unique network identifier
+  "nibbledPlmn": <String> - PLMN encoded according to 3GPP TS 24.008 (section 10.5.1.13)
   "mcc": <String> - mobile country code
   "mnc": <String> - mobile network code
+  "region": <String> - 'Europe / Africa / Oceania / etc'
+  "type": <String> - geographic region ( see regions.json )
+  "countryName": <String> - country name
+  "countryCode": <String> - ISO 3166-1 country code
   "brand": <String|null>
   "operator": <String|null>
   "status": <String> - status code ( see status-codes.json )
@@ -67,6 +70,10 @@ Returns the full record list
 
 Returns the status code list
 
+## `.regions()` : Array
+
+Returns the regions list
+
 ## `.filter(filters)` : Array
 
 Returns a filtered record list. `filters` is an object.
@@ -75,14 +82,17 @@ Returns a filtered record list. `filters` is an object.
 // get all the Operational mobile networks
 let filters = { statusCode: 'Operational' }
 
+// get all the Operational mobile networks in Europe
+let filters = { statusCode: 'Operational', region: 'Europe' }
+
 // get all the records from Hungary
 let filters = { mcc: '216' }
 
 // get a specific network item ( specified with two keys )
 let filters = { mcc: '216', mnc: '30' }
 
-// get a specific network item ( specified with a joined key )
-let filters = { mccmnc: '21630' }
+// get a specific network item ( specified with a plmn code )
+let filters = { plmn: '21630' }
 
 // get all the Operational mobile networks from Hungary
 let filters = { statusCode: 'Operational', mcc: '216' }
@@ -111,18 +121,22 @@ console.log(records.length);
 console.log(statusCodes.length);
 // 12
 
-console.log(mcc_mnc_list.filter({ mccmnc: '21630' }));
-// [{
-//   "type": "National",
-//   "countryName": "Hungary",
-//   "countryCode": "HU",
-//   "mcc": "216",
-//   "mnc": "30",
-//   "brand": "T-Mobile",
-//   "operator": "Magyar Telekom Plc",
-//   "status": "Operational",
-//   "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
-//   "notes": "Former WESTEL, Westel 900; MNC has the same numerical value as the area code"
+console.log(mcc_mnc_list.filter({ plmn: '21630' }));
+// [{  plmn: '21630',
+//     nibbledPlmn: '12F603',
+//     mcc: '216',
+//     mnc: '30',
+//     region: 'Europe',
+//     type: 'National',
+//     countryName: 'Hungary',
+//     countryCode: 'HU',
+//     brand: 'T-Mobile',
+//     operator: 'Magyar Telekom Plc',
+//     status: 'Operational',
+//     bands:
+//      'GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600',
+//     notes:
+//      'Former WESTEL, Westel 900; MNC has the same numerical value as the area code' 
 // }]
 ```
 
