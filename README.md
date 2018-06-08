@@ -45,6 +45,8 @@ Structure of a single record:
   "type": <String> - geographic region ( see regions.json )
   "countryName": <String> - country name
   "countryCode": <String> - ISO 3166-1 country code
+  "lat": <String> - latitude of the country centroid
+  "long": <String> - longitude of the country centroid
   "brand": <String|null>
   "operator": <String|null>
   "status": <String> - status code ( see status-codes.json )
@@ -130,6 +132,8 @@ console.log(mcc_mnc_list.filter({ plmn: '21630' }));
 //     type: 'National',
 //     countryName: 'Hungary',
 //     countryCode: 'HU',
+//     lat: '47',
+//     long: '20',
 //     brand: 'T-Mobile',
 //     operator: 'Magyar Telekom Plc',
 //     status: 'Operational',

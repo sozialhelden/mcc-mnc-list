@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const jsdom = require('jsdom');
 const plmnutils = require('./plmnutils.js');
+const centroids = require('./centroids.json'); // Converted from http://gothos.info/resources/ country centroids csv file
 
 const WIKI_URL = 'https://en.wikipedia.org/wiki/Mobile_country_code';
 const MCC_MNC_OUTPUT_FILE = path.join( __dirname, 'mcc-mnc-list.json');
@@ -103,6 +104,9 @@ function fetch () {
             var nibbledPlmn = plmn ? plmnutils.encPlmn(mcc, mnc) : null;
             var region = plmnutils.getRegion(mcc);
 
+            // Get last 2 char of countryCode to ensure matching with a ISO 3166-1 alpha-2 code
+            var geo = countryCode ? getGeo(countryCode.toUpperCase().slice(-2)) : getGeo(null);
+
             records.push({
               plmn: plmn,
               nibbledPlmn: nibbledPlmn,
@@ -112,6 +116,8 @@ function fetch () {
               type: recordType,
               countryName: countryName,
               countryCode: countryCode,
+              lat: geo.lat,
+              long: geo.long,
               brand: cleanup(cols[2].textContent),
               operator: cleanup(cols[3].textContent),
               status: status,
@@ -174,6 +180,16 @@ function cleanup(str) {
 
 function removeCitationNeeded(str) {
   return str.replace(/\[citation needed\]/g, '');
+}
+
+function getGeo(countryCode) {
+  var centroid = centroids.filter(function(el) {return el.ISO3136.toUpperCase() == countryCode});
+
+  if (centroid.length) {
+    return { 'lat': String(centroid[0].LAT), 'long': String(centroid[0].LONG) };
+  } else {
+    return { 'lat': null, 'long': null };
+  }
 }
 
 fetch();
