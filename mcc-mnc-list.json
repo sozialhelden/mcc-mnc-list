@@ -592,7 +592,7 @@
     "operator": "Telefónica Móviles Argentina S.A.",
     "status": "Operational",
     "bands": "GSM 1900",
-    "notes": null
+    "notes": "Also uses or had used MNC 07"
   },
   {
     "plmn": "722310",
@@ -2815,7 +2815,7 @@
     "countryCode": "BE",
     "lat": "50.833333",
     "long": "4",
-    "brand": "BASE",
+    "brand": "Base",
     "operator": "Telenet",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800",
@@ -3111,10 +3111,10 @@
     "notes": "uses Jamaica MCC"
   },
   {
-    "plmn": "35000",
-    "nibbledPlmn": "53F000",
+    "plmn": "350000",
+    "nibbledPlmn": "530000",
     "mcc": "350",
-    "mnc": "00",
+    "mnc": "000",
     "region": "North America and the Caribbean",
     "type": "National",
     "countryName": "Bermuda",
@@ -5027,9 +5027,9 @@
     "long": "-96",
     "brand": "Bell",
     "operator": "Bell Mobility",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "CDMA 800 / CDMA 1900",
-    "notes": "CDMA shutting down in April 2018"
+    "notes": "CDMA shut down in June 2018"
   },
   {
     "plmn": "302650",
@@ -5231,7 +5231,7 @@
     "long": "-96",
     "brand": null,
     "operator": "MT&T Mobility (Aliant)",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "CDMA2000",
     "notes": null
   },
@@ -5248,7 +5248,7 @@
     "long": "-96",
     "brand": null,
     "operator": "New Tel Mobility (Aliant)",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "CDMA2000",
     "notes": null
   },
@@ -10795,6 +10795,23 @@
     "notes": null
   },
   {
+    "plmn": "28210",
+    "nibbledPlmn": "82F201",
+    "mcc": "282",
+    "mnc": "10",
+    "region": "Europe",
+    "type": "National",
+    "countryName": "Georgia",
+    "countryCode": "GE",
+    "lat": "41.999981",
+    "long": "43.499905",
+    "brand": null,
+    "operator": "Premium Net International SRL Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
     "plmn": "26201",
     "nibbledPlmn": "62F210",
     "mcc": "262",
@@ -12393,10 +12410,10 @@
     "notes": null
   },
   {
-    "plmn": "73802",
-    "nibbledPlmn": "37F820",
+    "plmn": "738002",
+    "nibbledPlmn": "372800",
     "mcc": "738",
-    "mnc": "02",
+    "mnc": "002",
     "region": "South and Central America",
     "type": "National",
     "countryName": "Guyana",
@@ -12406,14 +12423,14 @@
     "brand": "GT&T Cellink Plus",
     "operator": "Guyana Telephone & Telegraph Co.",
     "status": "Operational",
-    "bands": "GSM 900 / LTE",
+    "bands": "GSM 900 / GSM 1800",
     "notes": null
   },
   {
-    "plmn": "73803",
-    "nibbledPlmn": "37F830",
+    "plmn": "738003",
+    "nibbledPlmn": "373800",
     "mcc": "738",
-    "mnc": "03",
+    "mnc": "003",
     "region": "South and Central America",
     "type": "National",
     "countryName": "Guyana",
@@ -12422,7 +12439,7 @@
     "long": "-59",
     "brand": null,
     "operator": "Quark Communications Inc.",
-    "status": "Unknown",
+    "status": "Operational",
     "bands": "TD-LTE",
     "notes": null
   },
@@ -12966,9 +12983,9 @@
     "long": "114.166667",
     "brand": "Lycamobile",
     "operator": "Lycamobile Hong Kong Ltd",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "MVNO",
-    "notes": null
+    "notes": "Closed on 27 April 2018"
   },
   {
     "plmn": "45424",
@@ -13937,6 +13954,23 @@
     "operator": "Haryana",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
+    "notes": null
+  },
+  {
+    "plmn": "40435",
+    "nibbledPlmn": "04F453",
+    "mcc": "404",
+    "mnc": "35",
+    "region": "Asia and the Middle East",
+    "type": "National",
+    "countryName": "India",
+    "countryCode": "IN",
+    "lat": "20",
+    "long": "77",
+    "brand": "Aircel",
+    "operator": "Himachal Pradesh",
+    "status": "Operational",
+    "bands": "GSM 900 / GSM 1800",
     "notes": null
   },
   {
@@ -17367,7 +17401,7 @@
     "countryCode": "IR",
     "lat": "32",
     "long": "53",
-    "brand": "Shatel",
+    "brand": "Shatel Mobile",
     "operator": "Shatel Mobile",
     "status": "Operational",
     "bands": "MVNO",
@@ -17435,7 +17469,7 @@
     "countryCode": "IR",
     "lat": "32",
     "long": "53",
-    "brand": "TKC",
+    "brand": "TKC/KFZO",
     "operator": "Telecommunication Kish Company",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
@@ -17452,7 +17486,7 @@
     "countryCode": "IR",
     "lat": "32",
     "long": "53",
-    "brand": "Espadan (Jpvc)",
+    "brand": "Espadan (JV-PJS)",
     "operator": "Mobile Telecommunications Company of Esfahan",
     "status": "Operational",
     "bands": "GSM 900",
@@ -17507,7 +17541,7 @@
     "operator": "TCI of Iran and Iran Mobin",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
-    "notes": "Roaming On MCI & TKC"
+    "notes": "Roaming TKC & TCI"
   },
   {
     "plmn": "43235",
@@ -17643,7 +17677,7 @@
     "operator": "TCI of Iran and Rightel",
     "status": "Operational",
     "bands": "GSM 850 / GSM 1900",
-    "notes": "Roaming On RIGHTEL & TCI"
+    "notes": "Roaming IR70 & TCI & RIGHTEL"
   },
   {
     "plmn": "41800",
@@ -25517,6 +25551,23 @@
     "notes": "CDMA2000 800, TDMA 800 and NAMPS 800 are closed."
   },
   {
+    "plmn": "714020",
+    "nibbledPlmn": "170420",
+    "mcc": "714",
+    "mnc": "020",
+    "region": "South and Central America",
+    "type": "National",
+    "countryName": "Panama",
+    "countryCode": "PA",
+    "lat": "9",
+    "long": "-80",
+    "brand": "movistar",
+    "operator": "Telefónica Móviles de Panama S.A",
+    "status": "Operational",
+    "bands": "GSM 850 / 3G 2100 / LTE 700",
+    "notes": null
+  },
+  {
     "plmn": "71403",
     "nibbledPlmn": "17F430",
     "mcc": "714",
@@ -29828,11 +29879,11 @@
     "countryCode": "ZA",
     "lat": "-30",
     "long": "26",
-    "brand": null,
+    "brand": "Rain",
     "operator": "Wireless Business Solutions (Pty) Ltd",
     "status": "Operational",
-    "bands": "TD-LTE",
-    "notes": "LTE 2600 trial"
+    "bands": "TD-LTE 2600",
+    "notes": null
   },
   {
     "plmn": "65521",
@@ -33303,6 +33354,23 @@
     "notes": "GSM roaming with network 520-18"
   },
   {
+    "plmn": "52009",
+    "nibbledPlmn": "25F090",
+    "mcc": "520",
+    "mnc": "09",
+    "region": "Oceania",
+    "type": "National",
+    "countryName": "Thailand",
+    "countryCode": "TH",
+    "lat": "15",
+    "long": "100",
+    "brand": null,
+    "operator": "Royal Thai Police",
+    "status": "Operational",
+    "bands": "LTE 850",
+    "notes": "LTE band 26"
+  },
+  {
     "plmn": "52015",
     "nibbledPlmn": "25F051",
     "mcc": "520",
@@ -33403,23 +33471,6 @@
     "status": "Operational",
     "bands": "LTE 2300",
     "notes": "LTE band 40"
-  },
-  {
-    "plmn": "52009",
-    "nibbledPlmn": "25F090",
-    "mcc": "520",
-    "mnc": "09",
-    "region": "Oceania",
-    "type": "National",
-    "countryName": "Thailand",
-    "countryCode": "TH",
-    "lat": "15",
-    "long": "100",
-    "brand": null,
-    "operator": "Royal Thai Police",
-    "status": "Operational",
-    "bands": "LTE 850",
-    "notes": "LTE band 26"
   },
   {
     "plmn": "52099",
@@ -36629,7 +36680,7 @@
     "lat": "39.828175",
     "long": "-98.5795",
     "brand": "Phoenix",
-    "operator": "Oklahoma Western Telephone Company",
+    "operator": "Hilliary Communications",
     "status": "Operational",
     "bands": "GSM 850 / GSM 1900",
     "notes": "Oklahoma"
@@ -40114,10 +40165,10 @@
     "lat": "39.828175",
     "long": "-98.5795",
     "brand": null,
-    "operator": "S and R Communications LLC",
+    "operator": "RTC Communications LLC",
     "status": "Operational",
     "bands": "LTE 700",
-    "notes": "Indiana"
+    "notes": "Indiana; former S and R Communications LLC"
   },
   {
     "plmn": "312330",
@@ -40439,8 +40490,8 @@
     "brand": null,
     "operator": "WUE Inc.",
     "status": "Unknown",
-    "bands": "CDMA / LTE",
-    "notes": "Nevada"
+    "bands": "LTE",
+    "notes": "Nevada; CDMA shut down"
   },
   {
     "plmn": "312520",
