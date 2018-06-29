@@ -6268,7 +6268,7 @@
     "long": "105",
     "brand": "China Unicom",
     "operator": "China Unicom",
-    "status": "Unknown",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": null
   },
@@ -11947,7 +11947,7 @@
     "brand": "Digicel",
     "operator": "Digicel Grenada Ltd.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE",
     "notes": "Also uses MCC 338 MNC 05 (Jamaica)"
   },
   {
@@ -11964,7 +11964,7 @@
     "brand": "FLOW",
     "operator": "Cable & Wireless Grenada Ltd.",
     "status": "Operational",
-    "bands": "GSM 850",
+    "bands": "GSM 850 / LTE",
     "notes": null
   },
   {
@@ -28318,7 +28318,7 @@
     "brand": "Digicel",
     "operator": "Digicel (St. Vincent and the Grenadines) Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / GSM 1900",
+    "bands": "GSM 900 / GSM 1800 / GSM 1900 / LTE",
     "notes": null
   },
   {
@@ -33622,7 +33622,7 @@
     "brand": "Digicel",
     "operator": "Digicel (Trinidad & Tobago) Limited",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS 1900",
+    "bands": "GSM 850 / GSM 1900 / UMTS 1900 / LTE 700 / LTE 2100",
     "notes": null
   },
   {
