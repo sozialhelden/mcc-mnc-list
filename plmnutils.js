@@ -1,6 +1,7 @@
 // Regions
 const regionList = require('./regions.json');
-const regions = regionList.map(function(x) {return {[x.code]: x.name}});
+var regions = {[regionList[0].code]: regionList[0].name};
+regionList.reduce(function(obj, item) { regions[[item.code]] = item.name; return; });
 
 // Aux functions for left and right padding strings
 
