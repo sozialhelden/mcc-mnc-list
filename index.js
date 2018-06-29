@@ -5,6 +5,7 @@
 const records = require( './mcc-mnc-list.json' );
 const statusCodeList = require( './status-codes.json' );
 const regionList = require('./regions.json');
+const regionNames = regionList.map(function(x) { return x.name });
 
 function all () {
   return records;
@@ -79,7 +80,8 @@ function filter ( filters ) {
 
   if (filters.region) {
     region = filters.region;
-    if (regionList.indexOf(region) === -1) {
+
+    if (regionNames.indexOf(region) === -1) {
       throw new TypeError('Invalid region parameter (not found in region list)');
     }
   }
