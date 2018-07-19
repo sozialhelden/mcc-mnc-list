@@ -2223,7 +2223,7 @@
     "brand": "Aliv",
     "operator": "Cable Bahamas Ltd",
     "status": "Operational",
-    "bands": "LTE 700 / LTE AWS",
+    "bands": "LTE 700 / LTE 1700",
     "notes": "Former NewCo 2015; LTE bands 13 / 4, license also covers 850MHz and 1900MHz"
   },
   {
@@ -3395,9 +3395,9 @@
     "long": "-55",
     "brand": "Nextel",
     "operator": "NII Holdings, Inc.",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "iDEN 850",
-    "notes": null
+    "notes": "Defunct since March 2018."
   },
   {
     "plmn": "72401",
@@ -3618,7 +3618,7 @@
     "operator": "Vivo S.A.",
     "status": "Operational",
     "bands": "GSM 850 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 1800 / LTE 2600",
-    "notes": "formerly Telemig Celular"
+    "notes": "formerly used by the acquired Telemig Celular"
   },
   {
     "plmn": "72424",
@@ -3836,8 +3836,8 @@
     "lat": "-10",
     "long": "-55",
     "brand": "Local",
-    "operator": "Local (Unknown purpose or usage)",
-    "status": "Unknown",
+    "operator": "Used for RanSharing control and roaming between TIM and Oi",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": null
   },
@@ -5909,7 +5909,7 @@
     "countryCode": "CL",
     "lat": "-30",
     "long": "-71",
-    "brand": "Colo-Colo Móvil\nWanderers Móvil",
+    "brand": "Colo-Colo MóvilWanderers Móvil",
     "operator": "Telestar Móvil S.A.",
     "status": "Operational",
     "bands": "MVNO",
@@ -7899,7 +7899,7 @@
     "lat": "15.5",
     "long": "-61.333333",
     "brand": "FLOW",
-    "operator": "Cable & Wireless",
+    "operator": "Cable &  Wireless",
     "status": "Operational",
     "bands": "GSM 850 / UMTS / LTE 700",
     "notes": null
@@ -14327,7 +14327,7 @@
     "brand": "cellone",
     "operator": "Madhya Pradesh & Chhattisgarh",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100",
+    "bands": "GSM 900  / UMTS 2100",
     "notes": null
   },
   {
@@ -18679,7 +18679,7 @@
     "brand": "Vodafone",
     "operator": "Vodafone Italia S.p.A.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1500 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800  / LTE 1500 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -20345,7 +20345,7 @@
     "brand": "Vala",
     "operator": "Telecom of Kosovo J.S.C.",
     "status": "Operational",
-    "bands": "GSM 900 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / LTE 1800",
     "notes": "Previously the Monaco MCC/MNC 212-01 was used."
   },
   {
@@ -20362,7 +20362,7 @@
     "brand": "IPKO",
     "operator": "IPKO",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / LTE 1800",
     "notes": "Previously the Slovenian MCC/MNC 293-41 was used. Used by MVNO D3 Mobile."
   },
   {
@@ -21957,7 +21957,7 @@
     "countryCode": "MY",
     "lat": "2.5",
     "long": "112.5",
-    "brand": "unify",
+    "brand": "unifi",
     "operator": "Webe Digital Sdn Bhd",
     "status": "Operational",
     "bands": "WiMAX 2300 / LTE 850",
@@ -28265,7 +28265,7 @@
     "lat": "13.883333",
     "long": "-60.966667",
     "brand": "FLOW",
-    "operator": "Cable & Wireless",
+    "operator": "Cable &  Wireless",
     "status": "Operational",
     "bands": "GSM 850 / LTE 700",
     "notes": null
@@ -30940,6 +30940,23 @@
     "notes": null
   },
   {
+    "plmn": "21437",
+    "nibbledPlmn": "12F473",
+    "mcc": "214",
+    "mnc": "37",
+    "region": "Europe",
+    "type": "National",
+    "countryName": "Spain",
+    "countryCode": "ES",
+    "lat": "40",
+    "long": "-4",
+    "brand": null,
+    "operator": "VODAFONE ESPAÑA, S.A.U.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
     "plmn": "21451",
     "nibbledPlmn": "12F415",
     "mcc": "214",
@@ -32211,7 +32228,7 @@
     "brand": "Salt",
     "operator": "Salt Mobile SA",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
+    "bands": "GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600",
     "notes": "Former Orange"
   },
   {
@@ -32295,6 +32312,23 @@
     "long": "8",
     "brand": null,
     "operator": "Comfone AG",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "plmn": "22810",
+    "nibbledPlmn": "22F801",
+    "mcc": "228",
+    "mnc": "10",
+    "region": "Europe",
+    "type": "National",
+    "countryName": "Switzerland",
+    "countryCode": "CH",
+    "lat": "47",
+    "long": "8",
+    "brand": null,
+    "operator": "Stadt Polizei Zürich",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
@@ -32516,9 +32550,9 @@
     "long": "8",
     "brand": "Sunrise",
     "operator": "Sunrise Communications AG",
-    "status": "Not operational",
+    "status": "Unknown",
     "bands": "Unknown",
-    "notes": "Network sharing test with Salt Mobile; MNC withdrawn"
+    "notes": "Former network sharing test with Salt Mobile"
   },
   {
     "plmn": "22861",
@@ -33351,7 +33385,7 @@
     "operator": "DTAC Network Company Ltd.",
     "status": "Operational",
     "bands": "UMTS 850 / UMTS 2100 / LTE 1800 / LTE 2100",
-    "notes": "GSM roaming with network 520-18"
+    "notes": "GSM roaming with network 520-18, LTE 2300 roaming with 520-47"
   },
   {
     "plmn": "52009",
@@ -33381,10 +33415,10 @@
     "countryCode": "TH",
     "lat": "15",
     "long": "100",
-    "brand": "TOT 3G",
+    "brand": "TOT Mobile",
     "operator": "TOT Public Company Limited",
     "status": "Operational",
-    "bands": "UMTS 2100 / TD-LTE 2300",
+    "bands": "UMTS 2100",
     "notes": "Former Thaimobile 1900, ACT Mobile"
   },
   {
@@ -33466,10 +33500,10 @@
     "countryCode": "TH",
     "lat": "15",
     "long": "100",
-    "brand": "dtac-T",
-    "operator": "Telephone Organization of Thailand (TOT)",
+    "brand": "dtac-T / TOT Mobile",
+    "operator": "TOT Public Company Limited",
     "status": "Operational",
-    "bands": "LTE 2300",
+    "bands": "TD-LTE 2300",
     "notes": "LTE band 40"
   },
   {
@@ -33503,7 +33537,7 @@
     "brand": "Togo Cell",
     "operator": "Togo Telecom",
     "status": "Operational",
-    "bands": "GSM 900",
+    "bands": "GSM 900 / LTE",
     "notes": null
   },
   {
@@ -33520,7 +33554,7 @@
     "brand": "Moov",
     "operator": "Moov Togo",
     "status": "Operational",
-    "bands": "GSM 900",
+    "bands": "GSM 900 / LTE",
     "notes": null
   },
   {
@@ -36190,7 +36224,7 @@
     "operator": "T-Mobile USA",
     "status": "Operational",
     "bands": "GSM 1900 / UMTS 1900 / UMTS 1700 / LTE 850 / LTE 700 / LTE 1900 / LTE 1700",
-    "notes": "Former Cook Inlet West Wireless, Voicestream; now universal USA code. Also used for Ting."
+    "notes": "Former Cook Inlet West Wireless, Voicestream; now universal USA code.  Also used for Ting."
   },
   {
     "plmn": "310270",
@@ -41492,7 +41526,7 @@
     "long": "-98.5795",
     "brand": "FirstNet",
     "operator": "700 MHz Public Safety Broadband",
-    "status": "Unknown",
+    "status": "Operational",
     "bands": "LTE 700",
     "notes": "D Block"
   },
