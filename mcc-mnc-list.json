@@ -20905,7 +20905,7 @@
     "long": "35.833333",
     "brand": "Ogero Mobile",
     "operator": "Ogero Telecom",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "GSM 900",
     "notes": null
   },
@@ -30613,7 +30613,7 @@
     "brand": "Orange",
     "operator": "Orange Espagne S.A.U",
     "status": "Operational",
-    "bands": "900/1800 MHz GSM (GPRS, EDGE)900/2100 MHz UMTS, HSDPA, HSUPA, HSPA+, DC-HSPA+800/1800/2600 MHz LTE, LTE-A",
+    "bands": "900/1800 MHz GSM (GPRS, EDGE)900/2100 MHz UMTS, HSDPA, HSUPA, HSPA+, DC-HSPA+800/1800/2100/2600 MHz LTE, LTE-A",
     "notes": "Also use MNC 33; Some MVNO use this MNC (Euskaltel, móbilR, Hualong, The Phone House Spain, CABLE movil, SUOP)"
   },
   {
@@ -30630,7 +30630,7 @@
     "brand": "Yoigo",
     "operator": "Xfera Moviles SA",
     "status": "Operational",
-    "bands": "1800/2100 MHz LTE, LTE-A (Roams on Orange where there is no Yoigo coverage)",
+    "bands": "1800/2100 MHz LTE, LTE-A (Roams on Orange always for 2G/3G. And 4G where there is no Yoigo coverage)",
     "notes": "Acquired by Grupo MÁSMÓVIL; Used by MÁSMÓVIL, Yoigo, Pepephone and LlamaYa."
   },
   {
@@ -30681,8 +30681,8 @@
     "brand": "Movistar",
     "operator": "Telefónica Móviles España",
     "status": "Operational",
-    "bands": "900/1800 MHz GSM (GPRS, EDGE)900/2100 MHz UMTS, HSDPA, HSUPA, HSPA+, DC-HSPA+800/1800/2600 MHz LTE, LTE-A",
-    "notes": "Used by Movistar and O2 Spain - Movistar's own low cost virtual operator"
+    "bands": "900/1800 MHz GSM (GPRS, EDGE)900/2100 MHz UMTS, HSDPA, HSUPA, HSPA+, DC-HSPA+800/1800/2100/2600 MHz LTE, LTE-A",
+    "notes": "Used by Movistar and O₂ Spain  - Movistar's own low cost virtual operator"
   },
   {
     "plmn": "21408",
@@ -30933,7 +30933,7 @@
     "countryCode": "ES",
     "lat": "40",
     "long": "-4",
-    "brand": "DigiMobil",
+    "brand": "DIGI mobil",
     "operator": "Best Spain Telecom",
     "status": "Operational",
     "bands": "MVNO",
@@ -34792,11 +34792,11 @@
     "countryCode": "GB",
     "lat": "54",
     "long": "-4",
-    "brand": null,
+    "brand": "BT OnePhone",
     "operator": "BT OnePhone (UK) Ltd",
-    "status": "Unknown",
-    "bands": null,
-    "notes": null
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": "Uses the EE Network"
   },
   {
     "plmn": "23409",
@@ -43615,9 +43615,9 @@
     "countryCode": null,
     "lat": null,
     "long": null,
-    "brand": null,
+    "brand": "1nce GmbH",
     "operator": "Deutsche Telekom AG",
-    "status": "Unknown",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": null
   },
