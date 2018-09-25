@@ -32584,8 +32584,8 @@
     "long": "15",
     "brand": null,
     "operator": "Telenor Connexion AB",
-    "status": "Unknown",
-    "bands": "Unknown",
+    "status": "Operational",
+    "bands": "GSM 900/ GSM 1800 / M2M",
     "notes": null
   },
   {
