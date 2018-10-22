@@ -100,5 +100,22 @@
     "status": "Operational",
     "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 1700 / LTE 2100",
     "notes": null
+  },
+  {
+    "plmn": "28406",
+    "nibbledPlmn": "82F460",
+    "mcc": "284",
+    "mnc": "06",
+    "region": "Europe",
+    "type": "National",
+    "countryName": "Bulgaria",
+    "countryCode": "BG",
+    "lat": "43",
+    "long": "25",
+    "brand": "Vivatel",
+    "operator": "Vivatel",
+    "status": "Operational",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2100",
+    "notes": null
   }
 ]
