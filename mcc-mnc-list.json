@@ -1581,6 +1581,23 @@
     "notes": null
   },
   {
+    "plmn": "50545",
+    "nibbledPlmn": "05F554",
+    "mcc": "505",
+    "mnc": "45",
+    "region": "Oceania",
+    "type": "National",
+    "countryName": "Australia",
+    "countryCode": "AU",
+    "lat": "-25",
+    "long": "135",
+    "brand": null,
+    "operator": "Clermont Coal Operations Pty Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
     "plmn": "50550",
     "nibbledPlmn": "05F505",
     "mcc": "505",
@@ -2751,7 +2768,7 @@
     "operator": "Telenet",
     "status": "Operational",
     "bands": "MVNO",
-    "notes": "MVNO using Orange's Network"
+    "notes": "Using Base's Network"
   },
   {
     "plmn": "20606",
@@ -2934,11 +2951,11 @@
     "countryCode": "BE",
     "lat": "50.833333",
     "long": "4",
-    "brand": null,
+    "brand": "Mobile Vikings",
     "operator": "Unleashed NV",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": "Uses Base network"
   },
   {
     "plmn": "20633",
@@ -4909,8 +4926,8 @@
     "brand": "Freedom Mobile",
     "operator": "Shaw Communications",
     "status": "Operational",
-    "bands": "UMTS 1700 / LTE 1700",
-    "notes": "Former Wind Mobile; LTE bands 4, 66"
+    "bands": "UMTS 1700 / LTE 700 / LTE 1700 / LTE 2600",
+    "notes": "Former Wind Mobile; LTE bands 13, 4, 66, 7"
   },
   {
     "plmn": "302491",
@@ -8275,7 +8292,7 @@
     "brand": "Etisalat",
     "operator": "Etisalat Egypt",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
@@ -10298,7 +10315,7 @@
     "brand": "Orange",
     "operator": "Orange Caraïbe Mobiles",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100 / LTE 1800 / LTE 2100",
+    "bands": "GSM 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100",
     "notes": "Guadeloupe, French Guiana, Martinique, Saint Barthélemy, Saint Martin"
   },
   {
@@ -17884,6 +17901,23 @@
     "notes": "Mostly used in rural areas with poor telephone line and cable equipments, instead of telephone"
   },
   {
+    "plmn": "43293",
+    "nibbledPlmn": "34F239",
+    "mcc": "432",
+    "mnc": "93",
+    "region": "Asia and the Middle East",
+    "type": "National",
+    "countryName": "Iran",
+    "countryCode": "IR",
+    "lat": "32",
+    "long": "53",
+    "brand": "Farzanegan Pars",
+    "operator": "Farzanegan Pars",
+    "status": "Operational",
+    "bands": "GSM 900 / GSM 1800",
+    "notes": "Fixed Communication Provider (FCP)"
+  },
+  {
     "plmn": "43299",
     "nibbledPlmn": "34F299",
     "mcc": "432",
@@ -18456,7 +18490,7 @@
     "lat": "31.5",
     "long": "34.75",
     "brand": "Golan Telecom",
-    "operator": "Golan Telecom Ltd",
+    "operator": "Golan Telecom Ltd.",
     "status": "Operational",
     "bands": "UMTS 2100 / LTE 1800",
     "notes": "Uses Cellcom network for roaming"
@@ -18472,7 +18506,7 @@
     "countryCode": "IL",
     "lat": "31.5",
     "long": "34.75",
-    "brand": "018 Xphone",
+    "brand": "We4G",
     "operator": "Marathon 018 Xphone Ltd.",
     "status": "Operational",
     "bands": "LTE 1800",
@@ -18491,7 +18525,7 @@
     "long": "34.75",
     "brand": null,
     "operator": "365 Telecom",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "MVNO",
     "notes": null
   },
@@ -18508,7 +18542,7 @@
     "long": "34.75",
     "brand": null,
     "operator": "Free Telecom",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "MVNO",
     "notes": null
   },
@@ -18525,7 +18559,7 @@
     "long": "34.75",
     "brand": null,
     "operator": "Ituran Cellular Communications",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
     "notes": null
   },
@@ -18542,9 +18576,9 @@
     "long": "34.75",
     "brand": "Youphone",
     "operator": "Alon Cellular Ltd.",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "MVNO",
-    "notes": "MVNO (Partner)"
+    "notes": null
   },
   {
     "plmn": "42515",
@@ -18558,8 +18592,8 @@
     "lat": "31.5",
     "long": "34.75",
     "brand": "Home Cellular",
-    "operator": "Home Cellular",
-    "status": "Operational",
+    "operator": "Home Cellular Ltd.",
+    "status": "Not operational",
     "bands": "MVNO",
     "notes": "MVNO (Cellcom)"
   },
@@ -18593,7 +18627,7 @@
     "long": "34.75",
     "brand": "Sipme",
     "operator": "Gale Phone",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "MVNO",
     "notes": null
   },
@@ -18625,8 +18659,8 @@
     "countryCode": "IL",
     "lat": "31.5",
     "long": "34.75",
-    "brand": "Telzar 019",
-    "operator": "Azi Communications Ltd.",
+    "brand": "019 Mobile",
+    "operator": "019 Communication Services Ltd.",
     "status": "Operational",
     "bands": "MVNO",
     "notes": null
@@ -18693,7 +18727,7 @@
     "countryCode": "IL",
     "lat": "31.5",
     "long": "34.75",
-    "brand": "012 Telecom",
+    "brand": "012 Mobile",
     "operator": "Partner Communications Company Ltd.",
     "status": "Operational",
     "bands": "MVNO",
@@ -18712,9 +18746,9 @@
     "long": "34.75",
     "brand": "IMOD",
     "operator": "Israel Ministry of Defense",
-    "status": "Not operational",
+    "status": "Operational",
     "bands": "LTE",
-    "notes": "launching in 2016"
+    "notes": null
   },
   {
     "plmn": "42526",
@@ -18727,7 +18761,7 @@
     "countryCode": "IL",
     "lat": "31.5",
     "long": "34.75",
-    "brand": null,
+    "brand": "Annatel",
     "operator": "LB Annatel Ltd.",
     "status": "Operational",
     "bands": "MVNO",
@@ -18765,7 +18799,7 @@
     "operator": "CG Networks",
     "status": "Unknown",
     "bands": "Unknown",
-    "notes": null
+    "notes": "Joint venture between Cellcom, Golan Telecom and Exphone"
   },
   {
     "plmn": "22201",
@@ -19088,6 +19122,23 @@
     "operator": "Telecom Italia S.p.A.",
     "status": "Unknown",
     "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "plmn": "22249",
+    "nibbledPlmn": "22F294",
+    "mcc": "222",
+    "mnc": "49",
+    "region": "Europe",
+    "type": "National",
+    "countryName": "Italy",
+    "countryCode": "IT",
+    "lat": "42.833333",
+    "long": "12.833333",
+    "brand": "Vianova",
+    "operator": "Welcome Italia S.p.A.",
+    "status": "Unknown",
+    "bands": "MVNO",
     "notes": null
   },
   {
@@ -23507,7 +23558,7 @@
     "brand": "Vodacom",
     "operator": "Vodacom Mozambique, S.A.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE",
     "notes": null
   },
   {
@@ -25292,7 +25343,7 @@
     "brand": "Telecom Niue",
     "operator": "Telecom Niue",
     "status": "Operational",
-    "bands": "GSM 900 / LTE",
+    "bands": "GSM 900 / LTE 700",
     "notes": null
   },
   {
@@ -26465,7 +26516,7 @@
     "brand": "Plus",
     "operator": "Polkomtel Sp. z o.o.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
     "notes": "LTE roaming with Aero 2"
   },
   {
@@ -28268,7 +28319,7 @@
     "operator": "K-Telecom",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
-    "notes": "Operational in Crimea only."
+    "notes": "Unapproved use in Crimea only"
   },
   {
     "plmn": "25033",
@@ -28285,7 +28336,7 @@
     "operator": "Sevtelekom",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100",
-    "notes": "Operational in Sevastopol only."
+    "notes": "Unapproved use in Sevastopol only"
   },
   {
     "plmn": "25034",
@@ -28302,7 +28353,7 @@
     "operator": "Krymtelekom",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100",
-    "notes": "Operational in Crimea only."
+    "notes": "Unapproved use in Crimea only"
   },
   {
     "plmn": "25035",
@@ -28421,7 +28472,7 @@
     "operator": "KTK Telecom",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
-    "notes": "Operational in Crimea only."
+    "notes": "Unapproved use in Crimea only"
   },
   {
     "plmn": "25062",
@@ -28811,7 +28862,7 @@
     "brand": "GLOBALTEL",
     "operator": "GLOBALTEL",
     "status": "Operational",
-    "bands": "GSM 900",
+    "bands": "GSM 900 / LTE 800",
     "notes": null
   },
   {
@@ -32584,8 +32635,8 @@
     "long": "15",
     "brand": null,
     "operator": "Telenor Connexion AB",
-    "status": "Operational",
-    "bands": "GSM 900/ GSM 1800 / M2M",
+    "status": "Unknown",
+    "bands": "Unknown",
     "notes": null
   },
   {
@@ -33908,7 +33959,7 @@
     "countryCode": "TH",
     "lat": "15",
     "long": "100",
-    "brand": "dtac TriNet / LINE MOBILE TH",
+    "brand": "dtac TriNet / LINE",
     "operator": "DTAC TriNet Company Ltd.",
     "status": "Operational",
     "bands": "UMTS 850 / UMTS 2100 / LTE 1800 / LTE 2100",
@@ -34027,7 +34078,7 @@
     "countryCode": "TH",
     "lat": "15",
     "long": "100",
-    "brand": "dtac-T / LINE MOBILE-T / TOT Mobile",
+    "brand": "dtac-T / LINE / TOT Mobile",
     "operator": "TOT Public Company Limited",
     "status": "Operational",
     "bands": "TD-LTE 2300",
@@ -34898,6 +34949,23 @@
     "operator": "CST Invest",
     "status": "Operational",
     "bands": "CDMA 800",
+    "notes": null
+  },
+  {
+    "plmn": "25599",
+    "nibbledPlmn": "52F599",
+    "mcc": "255",
+    "mnc": "99",
+    "region": "Europe",
+    "type": "National",
+    "countryName": "Ukraine",
+    "countryCode": "UA",
+    "lat": "49",
+    "long": "32",
+    "brand": "Phoenix-dnr",
+    "operator": "State enterprise \"Republican Telecom Operator\"",
+    "status": "Operational",
+    "bands": "LTE 800",
     "notes": null
   },
   {
@@ -39637,11 +39705,11 @@
     "countryCode": "US",
     "lat": "39.828175",
     "long": "-98.5795",
-    "brand": "metroPCS",
-    "operator": "MetroPCS Wireless Inc.",
+    "brand": "Metro",
+    "operator": "Metro by T-Mobile",
     "status": "Operational",
     "bands": "MVNO",
-    "notes": "CDMA2000 1900 / CDMA2000 1700 shut down in 2015; LTE 1700 merged with T-Mobile US"
+    "notes": "Former MetroPCS; CDMA2000 1900 / CDMA2000 1700 shut down in 2015; LTE 1700 merged with T-Mobile US"
   },
   {
     "plmn": "311670",
@@ -42738,6 +42806,23 @@
     "notes": null
   },
   {
+    "plmn": "43409",
+    "nibbledPlmn": "34F490",
+    "mcc": "434",
+    "mnc": "09",
+    "region": "Asia and the Middle East",
+    "type": "National",
+    "countryName": "Uzbekistan",
+    "countryCode": "UZ",
+    "lat": "41.707542",
+    "long": "63.84911",
+    "brand": "EVO",
+    "operator": "OOO «Super iMAX»",
+    "status": "Operational",
+    "bands": "LTE 2300",
+    "notes": null
+  },
+  {
     "plmn": "54100",
     "nibbledPlmn": "45F100",
     "mcc": "541",
@@ -44384,6 +44469,23 @@
     "operator": "Telecom Personal S.A.",
     "status": "Operational",
     "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 1700 / LTE 2100",
+    "notes": null
+  },
+  {
+    "plmn": "28406",
+    "nibbledPlmn": "82F460",
+    "mcc": "284",
+    "mnc": "06",
+    "region": "Europe",
+    "type": "National",
+    "countryName": "Bulgaria",
+    "countryCode": "BG",
+    "lat": "43",
+    "long": "25",
+    "brand": "Vivatel",
+    "operator": "Vivatel",
+    "status": "Operational",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2100",
     "notes": null
   }
 ]
