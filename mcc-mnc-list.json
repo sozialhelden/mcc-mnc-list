@@ -1598,6 +1598,23 @@
     "notes": null
   },
   {
+    "plmn": "50546",
+    "nibbledPlmn": "05F564",
+    "mcc": "505",
+    "mnc": "46",
+    "region": "Oceania",
+    "type": "National",
+    "countryName": "Australia",
+    "countryCode": "AU",
+    "lat": "-25",
+    "long": "135",
+    "brand": null,
+    "operator": "AngloGold Ashanti Australia Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
     "plmn": "50550",
     "nibbledPlmn": "05F505",
     "mcc": "505",
@@ -8738,6 +8755,23 @@
     "notes": null
   },
   {
+    "plmn": "24816",
+    "nibbledPlmn": "42F861",
+    "mcc": "248",
+    "mnc": "16",
+    "region": "Europe",
+    "type": "National",
+    "countryName": "Estonia",
+    "countryCode": "EE",
+    "lat": "59",
+    "long": "26",
+    "brand": "dzinga",
+    "operator": "SmartTel Plus OÜ",
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
     "plmn": "24871",
     "nibbledPlmn": "42F817",
     "mcc": "248",
@@ -10434,7 +10468,7 @@
     "brand": "SFR Caraïbe",
     "operator": "Outremer Telecom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS / LTE 800 / LTE 1800 / 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS / LTE 800 / LTE 1800 / LTE 2600",
     "notes": "Guadeloupe, French Guiana, Martinique; former Only"
   },
   {
@@ -18661,7 +18695,7 @@
     "long": "34.75",
     "brand": "x2one",
     "operator": "Free Telecom",
-    "status": "Not operational",
+    "status": "Operational",
     "bands": "MVNO",
     "notes": null
   },
@@ -18779,7 +18813,7 @@
     "lat": "31.5",
     "long": "34.75",
     "brand": "019 Mobile",
-    "operator": "019 Communication Services Ltd.",
+    "operator": "019 Communication Services Ltd. / TELZAR",
     "status": "Operational",
     "bands": "MVNO",
     "notes": null
@@ -30019,7 +30053,7 @@
     "operator": "Slovak Telekom",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600 / TD-LTE 3700",
-    "notes": "Former Eurotel"
+    "notes": "Former Eurotel / T-Mobile"
   },
   {
     "plmn": "23103",
@@ -31719,7 +31753,7 @@
     "operator": "Telefónica Móviles España",
     "status": "Operational",
     "bands": "MVNO",
-    "notes": "MNC 05 in roaming."
+    "notes": "MNC withdrawn, replaced by MNC 05."
   },
   {
     "plmn": "21433",
@@ -31788,23 +31822,6 @@
     "status": "Not operational",
     "bands": "Unknown",
     "notes": "MNC withdrawn"
-  },
-  {
-    "plmn": "21437",
-    "nibbledPlmn": "12F473",
-    "mcc": "214",
-    "mnc": "37",
-    "region": "Europe",
-    "type": "National",
-    "countryName": "Spain",
-    "countryCode": "ES",
-    "lat": "40",
-    "long": "-4",
-    "brand": null,
-    "operator": "Vodafone Spain",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
   },
   {
     "plmn": "21437",
@@ -34557,7 +34574,7 @@
     "brand": "Digicel",
     "operator": "Digicel (Trinidad & Tobago) Limited",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 700 / LTE 1700",
+    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 1900",
     "notes": null
   },
   {
@@ -35187,7 +35204,7 @@
     "operator": "PRJSC “Kyivstar\"",
     "status": "Not operational",
     "bands": "GSM 1800",
-    "notes": "Former Golden Telecom; taken over by Kyivstar"
+    "notes": "Former Golden Telecom; taken over by Kyivstar; MNC withdrawn"
   },
   {
     "plmn": "25506",
@@ -35306,7 +35323,7 @@
     "operator": "PRJSC “Telesystems of Ukraine\"",
     "status": "Not operational",
     "bands": "CDMA 800",
-    "notes": "Taken over by PEOPLEnet"
+    "notes": "Taken over by PEOPLEnet; MNC withdrawn"
   },
   {
     "plmn": "25599",
@@ -44756,6 +44773,40 @@
     "long": null,
     "brand": null,
     "operator": "Syniverse Technologies, LLC",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "plmn": "90165",
+    "nibbledPlmn": "09F156",
+    "mcc": "901",
+    "mnc": "65",
+    "region": "Worldwide",
+    "type": "International",
+    "countryName": null,
+    "countryCode": null,
+    "lat": null,
+    "long": null,
+    "brand": null,
+    "operator": "Plintron Global Technology Solutions Pty Ltd",
+    "status": "Unknown",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "plmn": "90166",
+    "nibbledPlmn": "09F166",
+    "mcc": "901",
+    "mnc": "66",
+    "region": "Worldwide",
+    "type": "International",
+    "countryName": null,
+    "countryCode": null,
+    "lat": null,
+    "long": null,
+    "brand": null,
+    "operator": "Limitless Mobile LLC",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
