@@ -6,6 +6,7 @@ const path = require('path');
 const jsdom = require('jsdom');
 const plmnutils = require('./plmnutils.js');
 const centroids = require('./centroids.json'); // Converted from http://gothos.info/resources/ country centroids csv file
+const extraplmns = require('./extraplmns.json'); // Specific PLMNs Pod Group has roaming agreements with but wasn't accepted in Wikipedia yet.
 
 const WIKI_URL = 'https://en.wikipedia.org/wiki/Mobile_country_code';
 const MCC_MNC_OUTPUT_FILE = path.join( __dirname, 'mcc-mnc-list.json');
@@ -128,6 +129,10 @@ function fetch () {
           }
         }
       }
+
+      // Manually appending all specific PLMNs Pod Group has roaming agreements
+      // with but wasn't accepted in Wikipedia yet.
+      records = records.concat(extraplmns);
 
       fs.writeFile( MCC_MNC_OUTPUT_FILE, JSON.stringify( records, null, 2 ), err => {
         if ( err ) {
