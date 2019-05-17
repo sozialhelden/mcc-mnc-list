@@ -1,4 +1,3 @@
-
 'use strict';
 
 const fs = require('fs');
@@ -7,16 +6,16 @@ const jsdom = require('jsdom');
 const plmnutils = require('./plmnutils.js');
 const centroids = require('./centroids.json'); // Converted from http://gothos.info/resources/ country centroids csv file
 const extraplmns = require('./extraplmns.json'); // Specific PLMNs Pod Group has roaming agreements with but wasn't accepted in Wikipedia yet.
+const { JSDOM } = jsdom;
 
 const WIKI_URL = 'https://en.wikipedia.org/wiki/Mobile_country_code';
 const MCC_MNC_OUTPUT_FILE = path.join( __dirname, 'mcc-mnc-list.json');
 const STATUS_CODES_OUTPUT_FILE = path.join( __dirname, 'status-codes.json');
 
 function fetch () {
-  jsdom.env({
-    url: WIKI_URL,
-    done: function (err, window) {
-      if (err) throw err;
+  JSDOM.fromURL(WIKI_URL).then(dom => 
+    {
+      const { window } = dom;
       var content = window.document.querySelector('#mw-content-text > .mw-parser-output');
 
       if (!content.hasChildNodes()) {
@@ -43,7 +42,7 @@ function fetch () {
           recordType = 'other';
           sectionName = node.querySelector('.mw-headline').textContent.trim();
 
-          if (sectionName === 'See also' || sectionName === 'External links') {
+          if (sectionName === 'See also' || sectionName === 'External links' || sectionName === 'National MNC Authorities') {
             break nodeList;
           }
 
@@ -94,6 +93,9 @@ function fetch () {
             if (status === 'Not Operational') {
               status = 'Not operational';
             }
+            if (status === 'operational') {
+              status = 'Operational';
+            }
 
             if ( status && statusCodes.indexOf( status ) === -1 ) {
               statusCodes.push( status );
@@ -132,7 +134,7 @@ function fetch () {
 
       // Manually appending all specific PLMNs Pod Group has roaming agreements
       // with but wasn't accepted in Wikipedia yet.
-//TODO: update the items if they are already in the list. Right now, the script duplicates them
+      //TODO: update the items if they are already in the list. Right now, the script duplicates them
       records = records.concat(extraplmns);
 
       fs.writeFile( MCC_MNC_OUTPUT_FILE, JSON.stringify( records, null, 2 ), err => {
@@ -152,7 +154,6 @@ function fetch () {
         console.log( 'Status codes saved to ' + STATUS_CODES_OUTPUT_FILE );
       });
 
-    }
   });
 }
 
