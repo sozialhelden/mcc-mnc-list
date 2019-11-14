@@ -24,6 +24,7 @@ const STATUS_CODES_OUTPUT_FILE = path.join( __dirname, 'status-codes.json');
 fs.writeFileSync(MCC_MNC_OUTPUT_FILE, "");
 
 var statusCodes = [];
+var records = [];
 
 async function fetch (wiki_url) {
   return new Promise((resolve, reject) => {
@@ -41,7 +42,6 @@ async function fetch (wiki_url) {
 
         const children = content.childNodes;
         let recordType, sectionName, countryName = null, countryCode = null;
-        let records = [];
 
         nodeList: for (let i = 0; i < children.length; i++) {
           let node = children[i];
@@ -143,14 +143,8 @@ async function fetch (wiki_url) {
             }
           }
         }
-
-        fs.appendFile( MCC_MNC_OUTPUT_FILE, JSON.stringify( records, null, 2 ), err => {
-          if ( err ) {
-            throw err;
-          }
-          console.log( 'MCC-MNC list saved to ' + MCC_MNC_OUTPUT_FILE );
-          console.log( 'Total ' + records.length + ' records' );
-        });
+        console.log( 'MCC-MNC list saved to ' + MCC_MNC_OUTPUT_FILE );
+        console.log( 'Total ' + records.length + ' records' );
         resolve()
     })
   })
@@ -204,16 +198,13 @@ async function run() {
     await fetch(wiki_url);
   }
 
-  // const records = require('./mcc-mnc-list.json');
-  // records = records.concat(extraplmns);
-
-  // fs.writeFile( MCC_MNC_OUTPUT_FILE, JSON.stringify( records, null, 2 ), err => {
-  //   if ( err ) {
-  //     throw err;
-  //   }
-  //   console.log( 'Extra PLMN records added to ' + MCC_MNC_OUTPUT_FILE );
-  //   console.log( 'Total ' + records.length + ' records' );
-  // });
+  // Add extra PLMNS to the final output file
+  records = records.concat(extraplmns);
+  fs.appendFile( MCC_MNC_OUTPUT_FILE, JSON.stringify( records, null, 2 ), err => {
+    if ( err ) {
+      throw err;
+    }
+  });
 
   statusCodes.sort();
   console.log("fin");
