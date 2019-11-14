@@ -1290,8 +1290,7 @@
     "status": "Operational",
     "bands": "GSM 900",
     "notes": "There appears to be no officially assigned MCC"
-  }
-][
+  },
   {
     "plmn": "28967",
     "nibbledPlmn": "82F976",
@@ -15978,8 +15977,7 @@
     "status": "Test Network",
     "bands": "GSM-R",
     "notes": null
-  }
-][
+  },
   {
     "plmn": "365010",
     "nibbledPlmn": "630510",
@@ -25867,8 +25865,7 @@
     "status": "Not operational",
     "bands": "iDEN 800",
     "notes": "shut down 2019"
-  }
-][
+  },
   {
     "plmn": "41201",
     "nibbledPlmn": "14F210",
@@ -35012,8 +35009,7 @@
     "status": "Operational",
     "bands": "GSM 900",
     "notes": null
-  }
-][
+  },
   {
     "plmn": "311780",
     "nibbledPlmn": "130187",
@@ -38022,8 +38018,7 @@
     "status": "Operational",
     "bands": "UMTS 900 / LTE",
     "notes": null
-  }
-][
+  },
   {
     "plmn": "60301",
     "nibbledPlmn": "06F310",
@@ -43157,8 +43152,7 @@
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": null
-  }
-][
+  },
   {
     "plmn": "722010",
     "nibbledPlmn": "270210",
