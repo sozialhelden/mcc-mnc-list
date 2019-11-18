@@ -2529,7 +2529,7 @@
     "brand": "Tele2",
     "operator": "Tele2",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -2546,7 +2546,7 @@
     "brand": "A1",
     "operator": "A1 Hrvatska",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100 / LTE 800 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": "Former Vipnet"
   },
   {
@@ -3616,9 +3616,9 @@
     "long": "26",
     "brand": null,
     "operator": "Premium Net International S.R.L. Eesti filiaal",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "plmn": "24816",
@@ -19052,8 +19052,8 @@
     "brand": "bmobile",
     "operator": "TSTT",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 1900 / TD-LTE 2600",
-    "notes": null
+    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 1900 / TD-LTE 2500",
+    "notes": "LTE bands 2 / 41"
   },
   {
     "plmn": "374130",
@@ -19069,8 +19069,8 @@
     "brand": "Digicel",
     "operator": "Digicel (Trinidad & Tobago) Limited",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 1900",
-    "notes": null
+    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 700 / LTE 1700 / LTE 1900",
+    "notes": "LTE bands 17 / 4 / 2"
   },
   {
     "plmn": "374140",
@@ -26850,7 +26850,7 @@
     "operator": "China Unicom (Hong Kong) Limited",
     "status": "Operational",
     "bands": "MVNO",
-    "notes": "MVNO on PCCW Mobile network code operational only at land borders and Airport to attract inbound roamers to join 454-16 or 454-19"
+    "notes": "MVNO on 3 Hong Kong Mobile network code operational only at land borders and Airport to attract inbound roamers to join 454-16 or 454-19"
   },
   {
     "plmn": "45408",
@@ -39342,7 +39342,7 @@
     "brand": "MTN",
     "operator": "MTN Group",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 2600",
     "notes": "former spacefon"
   },
   {
@@ -39597,7 +39597,7 @@
     "brand": "MTN Areeba",
     "operator": "Spacetel Guiné-Bissau S.A.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
     "notes": null
   },
   {
@@ -39614,7 +39614,7 @@
     "brand": "Orange",
     "operator": null,
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / LTE",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE",
     "notes": null
   },
   {
@@ -42589,8 +42589,8 @@
     "brand": "Airtel",
     "operator": "Bharti Airtel",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
-    "notes": "Former Celtel (Zain)"
+    "bands": "GSM 900 / GSM 1800 / LTE 700",
+    "notes": "Former Celtel (Zain); LTE band 28"
   },
   {
     "plmn": "64006",
@@ -46484,5 +46484,22 @@
     "status": "Operational",
     "bands": "LTE 700",
     "notes": "C Block"
+  },
+  {
+    "plmn": "73212",
+    "nibbledPlmn": "",
+    "mcc": "732",
+    "mnc": "12",
+    "region": "South and Central America",
+    "type": "National",
+    "countryName": "Colombia",
+    "countryCode": "CO",
+    "lat": "4",
+    "long": "-72",
+    "brand": "Telefonica",
+    "operator": "Telefonica",
+    "status": "Operational",
+    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 1700 / LTE 2600",
+    "notes": null
   }
 ]
