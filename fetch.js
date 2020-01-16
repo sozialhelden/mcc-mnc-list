@@ -201,7 +201,7 @@ async function run() {
   // Manually appending all specific PLMNs Pod Group has roaming agreements
   // with but wasn't accepted in Wikipedia yet.
   //TODO: update the items if they are already in the list. Right now, the script duplicates them
-  records = records.concat(extraplmns);
+  records = extraplmns.concat(records);
   fs.appendFile( MCC_MNC_OUTPUT_FILE, JSON.stringify( records, null, 2 ), err => {
     if ( err ) {
       throw err;
