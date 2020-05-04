@@ -31,6 +31,16 @@ $ npm install mcc-mnc-list
 
 ### `mcc-mnc-list.json`
 
+To have the podgroup final json:
+
+1 - In the extraplmns.json add all the networks you need
+2 - Remember to put on the top the ones you want be selected as Country per the mcc
+3 - Execute
+```
+$ npm run fetch
+```
+4 - push to prod
+
 This file contains all the records fetched from the Wikipedia page.
 
 Structure of a single record:
