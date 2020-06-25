@@ -115,6 +115,8 @@ async function fetch (wiki_url) {
               }
 
               var mcc = cleanup(cols[0].textContent);
+              if (mcc.length > 3 )
+              var mcc = cleanmcc(mcc)
               var mnc = cleanup(cols[1].textContent);
               var plmn = mcc ? (mnc ? mcc + mnc : null) : null;
               var nibbledPlmn = plmn ? plmnutils.encPlmn(mcc, mnc) : null;
@@ -192,6 +194,11 @@ function getGeo(countryCode) {
     return { 'lat': null, 'long': null };
   }
 }
+
+function cleanmcc(mcc){
+  var res = mcc.split("\n").pop()
+   return res
+  }
 
 async function run() {
   for (const wiki_url of WIKI_URLS) {
