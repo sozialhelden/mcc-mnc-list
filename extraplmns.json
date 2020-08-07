@@ -221,6 +221,23 @@
     "notes": null
   },
   {
+    "plmn": "338050",
+    "nibbledPlmn": "330850",
+    "mcc": "338",
+    "mnc": "050",
+    "region": "North America and the Caribbean",
+    "type": "National",
+    "countryName": "Jamaica (Roaming Hub)",
+    "countryCode": "JM",
+    "lat": "32.333333",
+    "long": "-64.75",
+    "brand": "Digicel",
+    "operator": null,
+    "status": "Operational",
+    "bands": "GSM 1900 / UMTS 850 / UMTS 1900 / LTE 700",
+    "notes": null
+  },
+  {
     "plmn": "33420",
     "nibbledPlmn": "33F402",
     "mcc": "334",
