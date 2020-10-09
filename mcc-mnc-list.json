@@ -7088,7 +7088,7 @@
     "brand": "Telekom",
     "operator": "Telekom Deutschland GmbH",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 900 / LTE 1500 / LTE 1800 / LTE 2600 / 5G 2100 / 5G 3500",
+    "bands": "GSM 900 / UMTS 2100 / LTE 800 / LTE 900 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 2100 / 5G 3500",
     "notes": "Formerly D1 - DeTeMobil, D1-Telekom, T-D1, T-Mobile"
   },
   {
@@ -7105,7 +7105,7 @@
     "brand": "Vodafone",
     "operator": "Vodafone D2 GmbH",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 700 / LTE 800 / LTE 900 / LTE 1800 / LTE 2600 / 5G 700 / 5G 1800 / 5G 3500",
+    "bands": "GSM 900 / UMTS 2100 / LTE 700 / LTE 800 / LTE 900 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 700 / 5G 1800 / 5G 3500",
     "notes": "Former D2 Mannesmann"
   },
   {
@@ -7122,7 +7122,7 @@
     "brand": "O2",
     "operator": "Telefónica Germany GmbH & Co. oHG",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 900 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 3500",
+    "bands": "GSM 900 / UMTS 2100 / LTE 700 / LTE 800 / LTE 900 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 3500",
     "notes": "Former E-Plus, until 2014"
   },
   {
@@ -7173,7 +7173,7 @@
     "brand": "Telekom",
     "operator": "Telekom Deutschland GmbH",
     "status": "Reserved",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 900 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / UMTS 2100 / LTE 800 / LTE 900 / LTE 1500 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 2100 / 5G 3500",
     "notes": null
   },
   {
@@ -7801,9 +7801,9 @@
     "long": "-5.35",
     "brand": "Shine",
     "operator": "Eazitelecom",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "GSM 1800 / UMTS 2100",
-    "notes": null
+    "notes": "shut down May 2016"
   },
   {
     "plmn": "20201",
@@ -29967,7 +29967,7 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Haryana",
     "status": "Operational",
     "bands": "GSM 900",
@@ -30018,7 +30018,7 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Delhi & NCR",
     "status": "Operational",
     "bands": "GSM 1800",
@@ -30035,11 +30035,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Gujarat",
     "status": "Operational",
     "bands": "GSM 900",
-    "notes": "Formerly Hutch / Fascel"
+    "notes": "Former Hutch / Fascel /Vodafone India"
   },
   {
     "plmn": "40407",
@@ -30052,11 +30052,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Andhra Pradesh and Telangana",
     "status": "Operational",
     "bands": "GSM 900",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "40409",
@@ -30103,11 +30103,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Delhi & NCR",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "40412",
@@ -30120,11 +30120,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Haryana",
     "status": "Operational",
     "bands": "GSM 900",
-    "notes": "Former Escotel"
+    "notes": "Former Escotel IDEA"
   },
   {
     "plmn": "40413",
@@ -30137,11 +30137,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Andhra Pradesh and Telangana",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "40414",
@@ -30154,11 +30154,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Punjab",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
-    "notes": "Former Spice"
+    "notes": "Former Spice IDEA"
   },
   {
     "plmn": "40415",
@@ -30171,11 +30171,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Uttar Pradesh (East)",
     "status": "Operational",
     "bands": "GSM 900",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "40416",
@@ -30239,11 +30239,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Kerala",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
-    "notes": "Former Escotel"
+    "notes": "Former Escotel IDEA"
   },
   {
     "plmn": "40420",
@@ -30256,11 +30256,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Mumbai",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
-    "notes": "Former Hutchison Maxtouch / Orange / Hutch"
+    "notes": "Former Hutchison Maxtouch / Orange / Hutch / Vodafone India"
   },
   {
     "plmn": "40421",
@@ -30290,11 +30290,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Maharashtra & Goa",
     "status": "Operational",
     "bands": "GSM 900",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "40424",
@@ -30307,11 +30307,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Gujarat",
     "status": "Operational",
     "bands": "GSM 900",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "40425",
@@ -30341,11 +30341,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Maharashtra & Goa",
     "status": "Operational",
     "bands": "GSM 900",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "40428",
@@ -30392,11 +30392,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Kolkata",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
-    "notes": "Former Command / Hutch"
+    "notes": "former Vodafone India Command / Hutch"
   },
   {
     "plmn": "40431",
@@ -30532,7 +30532,7 @@
     "operator": "Chennai",
     "status": "Operational",
     "bands": "GSM 900",
-    "notes": "Formerly RPG"
+    "notes": "former RPG"
   },
   {
     "plmn": "40442",
@@ -30562,11 +30562,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Tamil Nadu",
     "status": "Operational",
     "bands": "GSM 900",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "40444",
@@ -30579,11 +30579,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Karnataka",
     "status": "Operational",
     "bands": "GSM 900 / LTE 1800",
-    "notes": "Former Spice"
+    "notes": "Former Spice IDEA"
   },
   {
     "plmn": "40445",
@@ -30613,11 +30613,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Kerala",
     "status": "Operational",
     "bands": "GSM 900",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "40448",
@@ -30766,11 +30766,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Uttar Pradesh (West)",
     "status": "Operational",
     "bands": "GSM 900",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "40457",
@@ -30834,11 +30834,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Rajasthan",
     "status": "Operational",
     "bands": "GSM 900",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "40462",
@@ -31089,11 +31089,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Madhya Pradesh & Chattishgarh",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
-    "notes": null
+    "notes": "formerIDEA"
   },
   {
     "plmn": "40479",
@@ -31157,11 +31157,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Himachal Pradesh",
     "status": "Operational",
-    "bands": "Unknown",
-    "notes": null
+    "bands": "unknown",
+    "notes": "former IDEA"
   },
   {
     "plmn": "40483",
@@ -31191,11 +31191,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Chennai",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "40485",
@@ -31225,11 +31225,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Karnataka",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100 / LTE 1800",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "40487",
@@ -31242,11 +31242,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Rajasthan",
     "status": "Operational",
-    "bands": "Unknown",
-    "notes": null
+    "bands": "unknown",
+    "notes": "formerIDEA"
   },
   {
     "plmn": "40488",
@@ -31259,11 +31259,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Vodafone Punjab",
     "status": "Operational",
-    "bands": "Unknown",
-    "notes": null
+    "bands": "unknown",
+    "notes": "formerVodafone India"
   },
   {
     "plmn": "40489",
@@ -31276,11 +31276,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Uttar Pradesh (East)",
     "status": "Operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "formerIDEA"
   },
   {
     "plmn": "40490",
@@ -32279,11 +32279,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Uttar Pradesh (West)",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "40567",
@@ -32296,11 +32296,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "West Bengal",
     "status": "Operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "40570",
@@ -32313,11 +32313,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Bihar & Jharkhand",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "405750",
@@ -32330,11 +32330,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Jammu & Kashmir",
     "status": "Operational",
-    "bands": "GSM 1800",
-    "notes": null
+    "bands": "Unknown",
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "405751",
@@ -32347,11 +32347,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Assam",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "405752",
@@ -32364,11 +32364,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Bihar & Jharkhand",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "405753",
@@ -32381,11 +32381,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Orissa",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "405754",
@@ -32398,11 +32398,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Himachal Pradesh",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "405755",
@@ -32415,11 +32415,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "North East",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "405756",
@@ -32432,11 +32432,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "Vodafone India",
+    "brand": "V!",
     "operator": "Madhya Pradesh & Chhattisgarh",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former Vodafone India"
   },
   {
     "plmn": "405799",
@@ -32449,11 +32449,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Mumbai",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "405800",
@@ -32857,11 +32857,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Assam",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "405846",
@@ -32874,11 +32874,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Jammu & Kashmir",
     "status": "Operational",
     "bands": "GSM 1800 / UTMS 2100",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "405847",
@@ -32891,11 +32891,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Karnataka",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "405848",
@@ -32908,11 +32908,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Kolkata",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "405849",
@@ -32925,11 +32925,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "North East",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "405850",
@@ -32942,11 +32942,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Orissa",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "405851",
@@ -32959,11 +32959,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Punjab",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "405852",
@@ -32976,11 +32976,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Tamil Nadu",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "405853",
@@ -32993,11 +32993,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "West Bengal",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "405854",
@@ -33418,11 +33418,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Andhra Pradesh and Telangana",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "405909",
@@ -33435,11 +33435,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Delhi",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "405910",
@@ -33452,11 +33452,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Haryana",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "405911",
@@ -33469,11 +33469,11 @@
     "countryCode": "IN",
     "lat": "20",
     "long": "77",
-    "brand": "IDEA",
+    "brand": "V!",
     "operator": "Maharashtra",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "former IDEA"
   },
   {
     "plmn": "405912",
